@@ -1,0 +1,23 @@
+{
+  "name": "cambiosenmivida",
+  "version": "1.0.0",
+  "description": "Final1CFI",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcpisquiy/CambiosEnMiVida.git"
+  },
+  "author": "pcpp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcpisquiy/CambiosEnMiVida/issues"
+  },
+  "homepage": "https://github.com/pcpisquiy/CambiosEnMiVida#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "normalize.css": "^8.0.1"
+  }
+}

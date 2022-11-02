@@ -1,0 +1,78 @@
+@font-face {
+  src: url("../Fonts/Sans_Mateo_2_Regular.ttf");
+  font-family: "Sans Mateo";
+}
+.navbar {
+  width: 98.8vw;
+  height: 4rem;
+  max-width: 100vw;
+  max-height: 100vh;
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  position: fixed;
+  border: solid 1px black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.navbar__List {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+.navbar__List__item {
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  font-size: 2rem;
+  font-family: "Sans Mateo";
+  color: white;
+}
+
+.Icons {
+  padding-right: 15px;
+}
+
+.Salud {
+  max-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+.Alimentacion {
+  max-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.Deporte {
+  max-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+.Body {
+  background-color: beige;
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+.Aspect_Container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  color: white;
+  font-family: "Sans Mateo";
+}/*# sourceMappingURL=Index.css.map */
