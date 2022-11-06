@@ -16,21 +16,20 @@ const DivAlimento = document.getElementById("Alimentacion");
 const DivDeporte = document.getElementById("Deporte");
 window.addEventListener('scroll',function(e){
     console.log(window.scrollY);
-if(window.scrollY<getOffset(DivAlimento).top){
-    if(Navbar.classList.contains("blue")){
-        Navbar.classList.remove("blue");
-        Navbar.classList.add("red");
+    if(window.scrollY<getOffset(DivAlimento).top){
+        if(Navbar.classList.contains("blue")){
+            Navbar.classList.remove("blue");
+            Navbar.classList.add("red");
+        }
+    }else if(window.scrollY>getOffset(DivAlimento).top && window.scrollY<getOffset(DivDeporte).top){
+        if(Navbar.classList.contains("red")){
+            Navbar.classList.remove("red");
+            Navbar.classList.add("blue");
+        }
+    }else if(window.scrollY>getOffset(DivDeporte).top-350){
+        if(Navbar.classList.contains("blue")){
+            Navbar.classList.remove("blue");
+            Navbar.classList.add("red");
+        }
     }
-}else if(window.scrollY>getOffset(DivAlimento).top && window.scrollY<getOffset(DivDeporte).top){
-    if(Navbar.classList.contains("red")){
-        Navbar.classList.remove("red");
-        Navbar.classList.add("blue");
-    }
-}else if(window.scrollY>getOffset(DivDeporte).top){
-    if(Navbar.classList.contains("blue")){
-        Navbar.classList.remove("blue");
-        Navbar.classList.add("red");
-    }
-}
 });
-

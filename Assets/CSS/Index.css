@@ -45,7 +45,7 @@
   max-height: 100vh;
   height: 100vh;
   width: 100vw;
-  background-color: blue;
+  background-color: skyblue;
 }
 
 .Alimentacion {
@@ -59,7 +59,16 @@
   max-height: 100vh;
   height: 100vh;
   width: 100vw;
-  background-color: blue;
+  background-image: radial-gradient(circle at center, red 0%, black 100%);
+  align-self: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .Body {
@@ -72,7 +81,57 @@
 .Aspect_Container {
   display: flex;
   flex-direction: row;
-  padding-top: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4.5rem;
   color: white;
   font-family: "Sans Mateo";
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.List__Item {
+  list-style: none;
+}
+
+.List__Item::before {
+  content: "";
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url("../Images/Dedo.png");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 2em;
+}
+
+.Aspect_Image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10rem;
+}
+
+.Aspect_Container_Karate {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding-top: 4.5rem;
+  color: white;
+  font-family: "Sans Mateo";
+  font-size: 1.5rem;
+}
+
+.Aspect_Image_Karate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }/*# sourceMappingURL=Index.css.map */
